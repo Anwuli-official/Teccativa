@@ -1,0 +1,21 @@
+.border{
+    border: gray;
+    padding: 4em;
+}
+header *{
+    display: inline;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 2em;
+}
+ a{
+    background: linear-gradient( right, red, yellow);
+}
+a{
+    color: aqua;
+    background: black;
+}

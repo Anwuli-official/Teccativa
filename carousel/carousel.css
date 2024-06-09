@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    transition: 0.25s;
+    background: gray;
+}
+body.dark{
+    background: gray;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    max-width: 800px;
+    width: calc(100%-100px);
+    height: 400px;
+}

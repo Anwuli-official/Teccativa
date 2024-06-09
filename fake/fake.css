@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: rgb(255, 255, 255);
+}
+header{
+    border-bottom: solid gray 1px;
+    padding: 2em;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+header *{
+    display: inline;
+}
+.contain h3{
+    font-size: 50px;
+    font-weight: 650px;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+}
+.contain p{
+    padding: 50px 0;
+}
+.container h3{
+    font: bolder;
+    font-weight: 900;
+    margin-left: 1px;
+    color: rgb(7, 193, 78);;
+    margin: 15px 15px;
+    
+}
+textarea{
+    height: 200px;
+    width: 300px;
+}
+header nav ul {
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+header nav ul li a:hover{
+    color: gray;
+}
+i{
+    padding: 5px;
+}
+i:hover{
+    transform: translateX(5px);
+}
+ .container span{
+    color: rgb(144, 218, 113);
+ }
+ .container{
+    padding: 200px 0;
+    background-image: url(green.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 400px;
+ }
+ .border a{
+    color: white;
+    background: rgb(144, 218, 113);
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: medium;
+    transition: 0.2s; 
+}
+.container a{
+    color: white;
+    background:rgb(144, 218, 113);
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: medium;
+    transition: 0.2s; 
+}
+.container a:hover{
+    color: rgb(144, 218, 113);
+    background: white;
+    transform: translateX(5px);
+}
+.which a{
+    color: rgb(144, 218, 113);
+    background: white;
+    box-shadow: 3px solid rgb(144, 218, 113);
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: medium;
+    transition: 0.2s;
+    opacity: 0.8; 
+}
+.which a:hover{
+    color: white;
+    background: rgb(144, 218, 113);
+    transform: scale(1.2);
+}
+.extra a{
+    color: white;
+    background: rgb(144, 218, 113);
+    padding: 0.5em;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: medium;
+    transition: 0.2s;
+    
+}
+.border a:hover{
+    background: whitesmoke;
+    box-shadow: 3px solid rgb(144, 218, 113);
+}
+.extra a:hover{
+    background: whitesmoke;
+    box-shadow: 3px solid rgb(144, 218, 113);
+}
+.which{
+    align-items: center;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+
+.flex img{
+    width: 25px;
+    height: 25px;
+    padding-top: 20px;
+}
+#middle{
+    overflow: auto;
+    width: 800px;
+    background:rgb(144, 218, 113);
+    border-radius: 20px;
+    margin-top: 5%;
+    text-align: left;
+    justify-content: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    flex: 1; 
+   
+}
+#inmiddle, #imiddle{
+    width: 45%;
+    margin: 20px;
+    padding: 2em;
+    background: rgb(186, 175, 175);
+    margin: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 3px solid grey;
+}
+#inmiddle{ float: left;}
+#imiddle{float: right;}
+#imiddle{
+    background: whitesmoke;
+    height: 50%;
+}
+#inmiddle{
+    color: black;
+    background:whitesmoke;
+    height: 50%;
+}
+.container{
+
+    margin-top: 10%;
+    text-align: center;
+    
+}
+.board{
+    background: white;
+}
+.extra ul {
+    list-style: none;
+    margin: 5px 20px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    padding: 50px 0;
+}
+.extra ul li{
+    display: inline-block;
+    margin: 5px 15px;
+}
+.extra ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.2s;
+    background: gray;
+    opacity: 0.2;
+}
+.extra ul li a:hover{
+    background: rgb(144, 218, 113);
+    opacity: 0.5;
+}
+
+/*Footer*/
+
+section{
+    width: 100%;
+ }
+ section .footer_main{
+    width: 100%;
+    background: rgb(144, 218, 113);
+    display: flex;
+    justify-content: space-around;
+ }
+
+ section .footer_main .tag{
+    margin: 10px 0;
+ }
+ section .footer_main .tag .center{
+    text-align: center;
+ }
+ section .footer_main .tag h1{
+    font-size: 25px;
+    margin: 25px 0;
+    color: white;
+ }
+ section .footer_main .tag a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 9px 0;
+ }
+ section .footer_main .tag a i{
+    padding: 0 10px;
+    transition: 0.3s;
+ }
+ section .footer_main .tag a i:hover{
+    color: white
+ }
+ section .footer_main .tag .social_link{
+    display: flex;
+ }
+ section .footer_main .tag .social_link a{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    box-shadow: 0 0 20px 10px black;
+    position: relative;
+    margin:0 5px ;
+    z-index: 10;
+    overflow: hidden;
+ }
+ section .footer_main .tag .social_link a .fa-brands{
+    font-size: 15px;
+    line-height: 30px;
+    z-index: 10;
+    position: relative;
+    transition: 0.5s;
+ }
+ section .footer_main .tag .social_link a:hover i{
+    color: white;
+ }
+ section .footer_main .tag .social_link a:after{
+    content:'' ;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -90px;
+    background: linear-gradient(-45deg, black, white);
+    position: absolute;
+    z-index: -10;
+    transition: 0.5s;
+ }
+ section.footer_main .tag .social_link a:after{
+    left: 0;
+ }
+ section .footer_main .tag .search_bar{
+    width: 230px;
+    height: 30px;
+    background: whitesmoke;
+    border-radius: 25px;
+ }
+ section .footer_main .tag .search_bar input{
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top:17%;
+    left: 6%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 13px;
+ }
+ section .footer_main .tag .search_bar button{
+    padding: 7px 15px;
+    background: whitesmoke;
+    border: none;
+    margin-top: 15px;
+    border-radius: 25px;
+    color: black;
+ }
